@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home - Clinical Laboratory Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .nav-bar a {
+        text-decoration: none;
+        color: #1c3d47;
+        font-weight: bold;
+        padding: 8px 14px;
+        display: inline-block;
+      }
+
+      .nav-bar a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+        background-color: #3b7a89;
+        border-radius: 4px;
+      }
+    </style>
+
+  </head>
+  <body>
+      <section class="section-1">
+        <div class = "logo">
+          <img src="https://www.btllab.in/assets/btl-logo-D1niBbZB.jpeg" alt="Logo" width="100" height="100">
+        </div>
+
+        <div class="text-box">
+          <h1 style="text-align: center;">Rastriya Clinical Laboratory Prabandhan</h1>
+          <h4 style="text-align: center; font-weight: bold">Accurate Diagnostics for Better Healthcare</h4>
+        </div>
+
+      </section>
+
+      <section class="section-2">
+
+        <div class="navi">
+          <nav class = "nav-bar">
+            <a href="index.html">Home</a>
+            <a href="laboratory-tests.html">Laboratory Tests</a>
+            <a href="test-details.html">Test Information</a>
+            <a href="gallery.html">Laboratory Gallery</a>
+            <a href="lab-map.html">Interactive Urine Test Strip</a>
+            <a href="test-price-table.html">Health Packages</a>
+            <a href="patient-registration.html">Online Registration</a>
+            <a href="health-information.html">Information Centre</a>
+            <a href="media.html">Patient Awareness Portal</a>
+          </nav>
+        </div>
+
+        <div class="container2">
+          <h1 style="text-align: center;">Online Patient Registration</h1>
+          <hr>
+
+          <form class="reg-form" action="#" method="post">
+
+            <fieldset>
+              <legend>Patient Details</legend>
+
+              <div class="form-row">
+                <label for="pname">Patient Name</label>
+                <input type="text" id="pname" name="pname" placeholder="Enter full name" required autofocus>
+              </div>
+
+              <div class="form-row">
+                <label for="page">Age</label>
+                <input type="number" id="page" name="page" placeholder="e.g. 32" min="0" max="120" required>
+              </div>
+
+              <div class="form-row">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male" style="width:auto;">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female" style="width:auto;">Female</label>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other" style="width:auto;">Other</label>
+              </div>
+
+              <div class="form-row">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile number"
+                pattern="[0-9]{10}" title="Enter a 10-digit mobile number" required>
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+
+              <div class="form-row">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Test Details</legend>
+              <div class="form-row">
+                <label for="test">Test Selection</label>
+                <select id="test" name="test" required>
+                  <option value="">-- Select a test --</option>
+                  <option value="CBC">Complete Blood Count (CBC)</option>
+                  <option value="Urine">Routine Urine Analysis</option>
+                  <option value="LFT">Liver Function Test (LFT)</option>
+                  <option value="KFT">Kidney Function Test (KFT)</option>
+                  <option value="Thyroid">Thyroid Profile</option>
+                  <option value="Lipid">Lipid Profile</option>
+                  <option value="Diabetes">Diabetes Profile (HbA1c)</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="appointment">Preferred Appointment Date</label>
+                <input type="date" id="appointment" name="appointment" required>
+              </div>
+
+              <div class="form-row">
+                <label>Sample Collection Preference</label>
+                <input type="radio" id="home" name="collection" value="Home Collection" checked required>
+                <label for="home" style="width:auto;">Home Collection</label>
+                <input type="radio" id="visit" name="collection" value="Visit Lab">
+                <label for="visit" style="width:auto;">Visit Lab</label>
+              </div>
+
+              <div class="form-row">
+                <label for="prescription">Upload Doctor Prescription</label>
+                <input type="file" id="prescription" name="prescription" accept=".pdf,.jpg,.jpeg,.png">
+              </div>
+            </fieldset>
+
+            <div class="form-row" style="text-align:center;">
+              <button type="submit" class="submit-btn">Register</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <div class="footer">
+          <h4 style="text-align: center; padding-top: 15px;">&copy; 2026 Rastriya Clinical Laboratory. All rights reserved.</h4>
+        </div>
+      </section>
+  </body>
+</html>

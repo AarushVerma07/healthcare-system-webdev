@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home - Clinical Laboratory Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .nav-bar a {
+        text-decoration: none;
+        color: #1c3d47;
+        font-weight: bold;
+        padding: 8px 14px;
+        display: inline-block;
+      }
+
+      .nav-bar a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+        background-color: #3b7a89;
+        border-radius: 4px;
+      }
+    </style>
+
+  </head>
+  <body>
+      <section class="section-1">
+        <div class = "logo">
+          <img src="https://www.btllab.in/assets/btl-logo-D1niBbZB.jpeg" alt="Logo" width="100" height="100">
+        </div>
+
+        <div class="text-box">
+          <h1 style="text-align: center;">Rastriya Clinical Laboratory Prabandhan</h1>
+          <h4 style="text-align: center; font-weight: bold">Accurate Diagnostics for Better Healthcare</h4>
+        </div>
+
+      </section>
+
+      <section class="section-2">
+
+        <div class="navi">
+          <nav class = "nav-bar">
+            <a href="index.html">Home</a>
+            <a href="laboratory-tests.html">Laboratory Tests</a>
+            <a href="test-details.html">Test Information</a>
+            <a href="gallery.html">Laboratory Gallery</a>
+            <a href="lab-map.html">Interactive Urine Test Strip</a>
+            <a href="test-price-table.html">Health Packages</a>
+            <a href="patient-registration.html">Online Registration</a>
+            <a href="health-information.html">Information Centre</a>
+            <a href="media.html">Patient Awareness Portal</a>
+          </nav>
+        </div>
+
+        <div class="container">
+          <h1 style="text-align: center;">Interactive Urine Test Strip</h1>
+          <hr>
+
+          <div class="map-wrap">
+            <p>
+              Click on any coloured pad below to jump to what that pad on the urine test strip checks for. Each pad corresponds to a specific test that can provide important information about your health.
+            </p>
+
+            <img src="test-strip.svg" alt="Urine test strip with five reagent pads" title="Urine Test Strip" 
+            width="600" height="160" usemap="#stripmap">
+
+            <map name="stripmap">
+              <area shape="rect" coords="90,60,170,100" href="laboratory-tests.html#glucose" alt="Glucose Pad" title="Glucose Pad">
+              <area shape="rect" coords="190,60,270,100" href="laboratory-tests.html#protein" alt="Protein Pad" title="Protein Pad">
+              <area shape="rect" coords="290,60,370,100" href="laboratory-tests.html#blood" alt="Blood Pad" title="Blood Pad">
+              <area shape="rect" coords="390,60,470,100" href="laboratory-tests.html#ketone" alt="Ketone Pad" title="Ketone Pad">
+              <area shape="rect" coords="490,60,560,100" href="laboratory-tests.html#ph" alt="pH Pad" title="pH Pad">
+            </map>
+
+            <div class="pad-list">
+              <ul>
+                <li><strong>Glucose Pad</strong> &ndash; checks for sugar in the urine, an early flag for diabetes.</li>
+                <li><strong>Protein Pad</strong> &ndash; checks for protein leakage, a sign of possible kidney issues.</li>
+                <li><strong>Blood Pad</strong> &ndash; detects blood traces, often linked to infection or stones.</li>
+                <li><strong>Ketone Pad</strong> &ndash; detects ketones, seen in uncontrolled diabetes or fasting.</li>
+                <li><strong>pH Pad</strong> &ndash; measures acidity/alkalinity of the urine sample.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <div class="footer">
+          <h4 style="text-align: center; padding-top: 15px;">&copy; 2026 Rastriya Clinical Laboratory. All rights reserved.</h4>
+        </div>
+      </section>
+  </body>
+</html>

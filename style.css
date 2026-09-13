@@ -1,0 +1,423 @@
+.section-1 {
+  height: 17vh;
+  background-color: rgb(149, 216, 238);
+  padding-top: 25px;
+}
+
+
+.section-1 {
+  background-color: #5aaebe;
+}
+
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.text-box {
+  background-color: rgb(138, 57, 77);
+  border-radius: 50%;
+  width : 70%;
+  margin : auto;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+
+.navi{
+    background-color: #85b2da;
+    width: 99%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.nav-bar{
+  text-align: center;
+}
+
+
+.section-2 {
+  min-height: 77vh;
+  background-color: rgb(241, 245, 241);
+  padding: 40px;
+}
+
+
+.container {
+    background-color: rgb(225, 228, 225);
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+.container2 {
+    background-color: rgb(225, 228, 225);
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom : 20px;
+}
+
+
+.welcome {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.welcome h2 {
+    font-size: 28px;
+}
+
+
+.welcome p {
+    line-height: 1.6;
+}
+
+
+.info-boxes {
+  max-width: 1100px;
+  margin: 30px auto;
+  display: flex;
+  gap: 30px;
+}
+
+
+.info-box {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+
+.working-hours {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+.imp-stuff {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.section-3 {
+  height: 5vh;
+  background-color: rgb(106, 114, 224);
+}
+
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 0 30px 0;
+}
+
+
+.gallery-grid figure {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  width: 300px;
+}
+
+
+.gallery-grid figure img {
+  border-radius: 4px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.gallery-grid figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+
+.map-wrap {
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+
+
+.map-wrap p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+
+.map-wrap img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.pad-list {
+  max-width: 500px;
+  margin: 15px auto 0 auto;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+
+.price-table caption {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.price-table th,
+.price-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.price-table thead {
+  background-color: #85b2da;
+}
+
+
+.price-table tfoot td {
+  background-color: rgb(241, 245, 241);
+  font-style: italic;
+}
+
+
+.reg-form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+
+.reg-form legend {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #3b7a89;
+}
+
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row label {
+  display: inline-block;
+  width: 220px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+
+.reg-form input[type="text"],
+.reg-form input[type="number"],
+.reg-form input[type="tel"],
+.reg-form input[type="email"],
+.reg-form input[type="date"],
+.reg-form select,
+.reg-form input[type="file"] {
+  padding: 6px;
+  width: 250px;
+  max-width: 100%;
+}
+
+
+.reg-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+.submit-btn {
+  background-color: #5aaebe;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.submit-btn:hover {
+  background-color: #3b7a89;
+}
+
+
+.iframe-block {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.iframe-block iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.media-block {
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.media-block video,
+.media-block audio {
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+
+.info-box {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-box ul li,
+.info-box ol li {
+  padding: 4px 0;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.info-box ul li:hover,
+.info-box ol li:hover {
+  color: #3b7a89;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+.gallery-grid figure {
+  display: inline-block;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.gallery-grid figure:hover {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-grid figure img {
+  transition: transform 0.4s ease;
+}
+
+.gallery-grid figure img:hover {
+  transform: scale(1.08);
+}
+
+.price-table tbody tr:nth-child(even) {
+  background-color: #eef3f7;
+}
+
+.price-table tbody tr:hover {
+  background-color: #d9ecf2;
+}
+
+.reg-form input[type="text"],
+.reg-form input[type="number"],
+.reg-form input[type="tel"],
+.reg-form input[type="email"],
+.reg-form input[type="date"],
+.reg-form select {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reg-form input:focus,
+.reg-form select:focus {
+  outline: none;
+  border-color: #5aaebe;
+  box-shadow: 0 0 5px rgba(90, 174, 190, 0.7);
+}
+
+.info-boxes {
+  align-items: flex-start;
+}
+
+.info-boxes .info-box:first-child {
+  flex: 1;
+}
+
+.info-boxes .info-box:last-child {
+  flex: 2;
+}
+
+.offer-box {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7a5b00;
+  background-color: #fff3cd;
+  border: 2px solid #e6b800;
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  animation: offerGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes offerGlow {
+  from {
+    box-shadow: 0 0 5px rgba(230, 184, 0, 0.5);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(230, 184, 0, 0.9);
+  }
+}

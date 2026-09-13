@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="600" height="160">
+  <!-- Strip handle -->
+  <rect x="0" y="55" width="70" height="50" fill="#f2eadd" stroke="#999" stroke-width="1"/>
+  <!-- Strip body -->
+  <rect x="70" y="55" width="500" height="50" fill="#fdfdfa" stroke="#999" stroke-width="1"/>
+
+  <!-- Glucose Pad -->
+  <rect x="90" y="60" width="80" height="40" fill="#7fbf7f"/>
+  <!-- Protein Pad -->
+  <rect x="190" y="60" width="80" height="40" fill="#a8d08d"/>
+  <!-- Blood Pad -->
+  <rect x="290" y="60" width="80" height="40" fill="#c97b63"/>
+  <!-- Ketone Pad -->
+  <rect x="390" y="60" width="80" height="40" fill="#e0b3d6"/>
+  <!-- pH Pad -->
+  <rect x="490" y="60" width="70" height="40" fill="#e8d24a"/>
+
+  <!-- Labels -->
+  <text x="130" y="130" font-size="13" text-anchor="middle" fill="#333">Glucose</text>
+  <text x="230" y="130" font-size="13" text-anchor="middle" fill="#333">Protein</text>
+  <text x="330" y="130" font-size="13" text-anchor="middle" fill="#333">Blood</text>
+  <text x="430" y="130" font-size="13" text-anchor="middle" fill="#333">Ketone</text>
+  <text x="525" y="130" font-size="13" text-anchor="middle" fill="#333">pH</text>
+
+  <text x="35" y="83" font-size="11" text-anchor="middle" fill="#555">Grip</text>
+</svg>
